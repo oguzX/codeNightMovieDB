@@ -12,6 +12,9 @@
                 <h4>We can't found anything bro :((</h4></div>";
         } else {
             foreach ($movies as $moviesRow) {
+                if ($moviesRow->vote_average == 0){
+                    continue;
+                }
                 ?>
                 <div class="row mt-5 shadow p-3">
                     <div class="col-md-4 col-xs-12 mb-4">

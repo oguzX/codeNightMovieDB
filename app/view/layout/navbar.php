@@ -1,5 +1,5 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
-    <a class="navbar-brand" href="#"><i class="fas fa-play-circle pr-2 ml-3 text-success"></i>Zug Babanın yeri</a>
+    <a class="navbar-brand" href="<?php echo URL;?>"><i class="fas fa-play-circle pr-2 ml-3 text-success"></i>Zug Babanın yeri</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,7 +11,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0" method="get" action="<?php echo URL.'/search/movie/';?>">
             <input class="form-control mr-sm-2" name="moviename" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-warning" type="submit">Search</button>
+            <button class="btn btn-warning" type="submit"><i class="fas fa-search ml-2 mr-2"></i></button>
         </form>
     </div>
 </nav>
