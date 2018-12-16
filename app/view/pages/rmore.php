@@ -21,7 +21,7 @@
                         <img src="<?php echo $lng_icon[$dataMovie->original_language]; ?>" alt="">
                     </h4>
                     <div class="row">
-                        <div class="row">
+                        <div class="row pl-lg-4">
                             <?php echo $dataMovie->overview; ?>
                         </div>
                         <div class="row pt-4">
